@@ -1,0 +1,33 @@
+    git config --global user.name Ankit
+    #to check email and name set or not
+        git config --global user.name
+        git config --global user.email
+
+    #to open vs stuido
+      code.
+
+    #to get repo [init or cloning command] 
+        1.  git init [to intialize]   
+        2.  ls -lart
+        3.  git status
+        4.  git add index.html [to send file in staging area]
+        5.  git add -A  [to send all file in stagin area] 
+        6.  touch about.html [to create blank file]
+        7.  git commit [to save file] 
+        8.  git checkout index.html [recover change single files data]
+        9.  git checkout -f  [recover change multiple files data]
+        10. git log show all  whats do 
+        11. git def [comparing working tree to staging area]
+        12. git dif--staged[to comapre staging area to  last commit]
+        13. skip staging area -> git commit -a -m "Skipping staging area"
+        14. git rm file1.text ---> file delete from working directory or staging area
+        15. git rm --cached file1.text ----> file remove only from staging area
+        16. git rm filename.extension ---> permanently remove file
+        17. git branch --> to get branch list
+        18. git  branch feature1 ---> to create new branch
+        19. git checkout feature1 ---> switch from main branch to featured branch
+        20. git remote add origin https://github.com/ankit0833/gt-repo.git
+        21. git push origin master  
+
+
+

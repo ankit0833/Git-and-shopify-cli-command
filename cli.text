@@ -1,0 +1,8 @@
+#How to connect shopify store with cli--->
+   shopify login --store=https://demo-ankit-joshi.myshopify.com/
+#shopify check authentication 
+    shopify whoami
+#shopify theme pull
+    shopify theme pull
+#shopify run
+   shopify theme serve
